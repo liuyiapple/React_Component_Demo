@@ -1,5 +1,5 @@
 import React, {Component, useState} from 'react';
-import GolbalTable from "../components/GlobalTable"
+import GolbalTable from "../../components/GolbalTable/GlobalTable"
 // mockdata
 import  {data,columns} from "./mockData"
 const TableTest = () => {

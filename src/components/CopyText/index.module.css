@@ -1,0 +1,17 @@
+.container {
+    width: 500px;
+    height: 800px;
+    margin: 40px auto  0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+}
+.buttonLocation {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    overflow: hidden;
+}
+.textContainer {
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
