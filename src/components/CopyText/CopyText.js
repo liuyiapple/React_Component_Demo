@@ -21,6 +21,7 @@ class CopyText extends Component {
   // TODO 这里由于点击下面的按钮，会触发两次，所以提前调了一下，会改进
   componentDidMount() {
     this.copyHandle();
+    this.props.getData();
   }
 
   render() {
@@ -42,6 +43,7 @@ class CopyText extends Component {
                   copied: true,
                 });
                 this.copyHandle();
+                this.props.getData();
               }}
             >
               一键复制
