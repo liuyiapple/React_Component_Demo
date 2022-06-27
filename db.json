@@ -1,6 +1,28 @@
 {
-  "posts": [{ "id": 1, "title": "json-server", "author": "typicode" }],
-  "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
-  "profile": { "name": "typicode" },
-  "users":[]
+  "users":[
+    {
+      "id":"1",
+      "name":"张三"
+    },
+    {
+      "id":"2",
+      "name":"李四"
+    },
+    {
+      "id":"3",
+      "name":"王五"
+    },
+    {
+      "id":"4",
+      "name":"赵六"
+    },
+    {
+      "id":"5",
+      "name":"力气"
+    },
+    {
+      "id":"6",
+      "name":"金三"
+    }
+  ]
 }
