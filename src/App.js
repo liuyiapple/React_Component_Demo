@@ -10,7 +10,8 @@ import React, { Component } from "react";
 // import ShowPage from './Store/showPage';
 // import MobxSix from "./components/MobxSix";
 // import CuntMobx from "./components/MobxSix/store"
-import DataBuilding from "./Layout/DataBuilding"
+// import DataBuilding from "./Layout/DataBuilding"
+import UploadComponent from "./Layout/UploadComponent"
 // const countStore = new CuntMobx()
 class App extends Component {
   render() {
@@ -25,7 +26,8 @@ class App extends Component {
         {/* <UseMobx/> */}
         {/* <ShowPage/> */}
         {/*<MobxSix countStore={countStore}/>*/}
-        <DataBuilding/>
+        {/*<DataBuilding/>*/}
+          <UploadComponent/>
       </div>
     );
   }
